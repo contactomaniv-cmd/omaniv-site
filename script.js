@@ -1,7 +1,7 @@
 // JavaScript for handling contact form submission
 
 // Replace with your WhatsApp phone number in international format (e.g., "972501234567")
-const phoneNumber = 'PHONE_NUMBER';
+const phoneNumber = '972555088549';
 
 document.addEventListener('DOMContentLoaded', () => {
   const contactForm = document.getElementById('contactForm');
