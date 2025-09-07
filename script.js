@@ -1,6 +1,6 @@
-// JavaScript for handling contact form submission
+// Script to handle the contact form submission on all pages
 
-// Replace with your WhatsApp phone number in international format (e.g., "972501234567")
+// Remplacer par votre numéro WhatsApp en format international (sans +)
 const phoneNumber = '972555088549';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -8,16 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
   if (contactForm) {
     contactForm.addEventListener('submit', (event) => {
       event.preventDefault();
-      // Gather form data
-      const name = encodeURIComponent(document.getElementById('name').value);
-      const email = encodeURIComponent(document.getElementById('email').value);
-      const message = encodeURIComponent(document.getElementById('message').value);
-      // Construct WhatsApp message
+      // Récupération des valeurs du formulaire et encodage pour l'URL
+      const name = encodeURIComponent(document.getElementById('name').value.trim());
+      const email = encodeURIComponent(document.getElementById('email').value.trim());
+      const message = encodeURIComponent(document.getElementById('message').value.trim());
+      // Construction du message WhatsApp (séparé par des sauts de ligne)
       const text = `Nom: ${name}%0aEmail: ${email}%0aMessage: ${message}`;
-      // Open WhatsApp chat in a new tab/window
-      if (phoneNumber === 'PHONE_NUMBER') {
-        alert('Veuillez définir votre numéro WhatsApp dans script.js');
-      }
+      // Ouverture de la conversation WhatsApp dans un nouvel onglet
       window.open(`https://wa.me/${phoneNumber}?text=${text}`, '_blank');
     });
   }
