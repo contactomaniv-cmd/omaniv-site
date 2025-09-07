@@ -1,0 +1,143 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Services Section */
+#services {
+  background-color: #fff;
+}
+#services h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.service {
+  background-color: #fafafa;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+.service h3 {
+  margin-bottom: 10px;
+  color: #004080;
+}
+.service p {
+  color: #555;
+}
+
+/* Packs Section */
+#packs {
+  background-color: #f9f9f9;
+}
+#packs h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.packs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.pack {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+.pack h3 {
+  margin-bottom: 10px;
+  color: #004080;
+}
+.pack p {
+  color: #555;
+}
+
+/* Réalisations Section */
+#realisations {
+  background-color: #fff;
+  text-align: center;
+}
+#realisations h2 {
+  margin-bottom: 20px;
+}
+#realisations p {
+  color: #666;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f9f9f9;
+}
+#contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#contact input,
+#contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  resize: vertical;
+}
+#contact button {
+  padding: 12px;
+  font-size: 1em;
+  border: none;
+  border-radius: 4px;
+  background-color: #004080;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#contact button:hover {
+  background-color: #003366;
+}
+
+/* Footer */
+footer {
+  background-color: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
