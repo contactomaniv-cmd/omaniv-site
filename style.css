@@ -11,7 +11,7 @@
 
 /* Root colour variables for easy theming */
 :root {
-  --primary: #ef476f;       /* accent colour (a vivid pinkish red) */
+  --primary: #1AD9CC;       /* accent colour (a vivid pinkish red) */
   --primary-hover: #d83d62; /* slightly darker for hover states */
   --dark-bg: #0d0d0d;       /* dark section background */
   --light-bg: #ffffff;      /* light section background */
