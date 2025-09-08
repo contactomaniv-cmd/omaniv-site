@@ -12,7 +12,7 @@
 /* Root colour variables for easy theming */
 :root {
   --primary: #1AD9CC;       /* accent colour (a vivid pinkish red) */
-  --primary-hover: #d83d62; /* slightly darker for hover states */
+  --primary-hover: #1AB6D9; /* slightly darker for hover states */
   --dark-bg: #0d0d0d;       /* dark section background */
   --light-bg: #ffffff;      /* light section background */
   --text-dark: #0d0d0d;     /* dark text */
